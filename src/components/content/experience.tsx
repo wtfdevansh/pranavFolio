@@ -2,23 +2,12 @@ import React from 'react';
 
 const experienceData = [
   {
-    role: "Senior Software Engineer",
-    company: "Tech Solutions Inc.",
-    period: "Jan 2021 - Present",
-    description: "Led the development of a high-traffic e-commerce platform, mentored junior developers, and architected scalable microservices. Improved application performance by 40% through code optimization and infrastructure upgrades."
-  },
-  {
-    role: "Mid-Level Software Engineer",
-    company: "Innovate Co.",
-    period: "Jun 2018 - Dec 2020",
-    description: "Developed and maintained features for a SaaS application using React and Ruby on Rails. Collaborated with cross-functional teams to deliver high-quality software on schedule."
-  },
-  {
-    role: "Junior Software Developer",
-    company: "Startup Hub",
-    period: "May 2017 - May 2018",
-    description: "Assisted in the development of a mobile-first social media application. Gained hands-on experience with agile methodologies, version control, and full-stack development."
+    role: "Teaching assistant intern",
+    company: "Apna College.",
+    period: "june 2024 - september 2024",
+    description: "As a teaching assistant i solved student doubts related to dsa and web and help in solving the problems. this helps to increase my logical thinking and make me good in problem solving"
   }
+  
 ];
 
 const Experience = () => {

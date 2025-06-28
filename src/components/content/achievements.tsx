@@ -4,21 +4,21 @@ import { Award, Star, Trophy } from 'lucide-react';
 const achievementsData = [
   {
     icon: <Trophy className="w-5 h-5 text-yellow-400" />,
-    title: "Innovator of the Year Award",
-    issuer: "TechCrunch Disrupt 2023",
-    description: "Awarded for developing a novel machine learning algorithm that significantly improves data processing speeds."
+    title: "500+ problems on leetcode and high ranking",
+    issuer: "Leetcode",
+    description: "problem solving skills dsa and logical approach."
   },
   {
     icon: <Star className="w-5 h-5 text-blue-400" />,
-    title: "Top 5% Contributor on GitHub",
-    issuer: "Open Source Community",
-    description: "Recognized for consistent and high-quality contributions to several major open-source projects, including React and TensorFlow."
+    title: "postman API fundamental student expert",
+    issuer: "Postman",
+    description: "API fundamnetal practical knowledge."
   },
   {
     icon: <Award className="w-5 h-5 text-green-400" />,
-    title: "Code-a-Thon Grand Champion",
-    issuer: "Global Hack Week 2022",
-    description: "Led a team to victory by building a prize-winning application for environmental sustainability in under 48 hours."
+    title: "Research paper",
+    issuer: "ICETM (IEEE 2025)",
+    description: "Published research paper on steganography real time data transmission."
   },
 ];
 

@@ -13,17 +13,17 @@ const Hero = () => {
           I'm a creative developer and tech enthusiast, passionate about building modern web applications and exploring new technologies.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/wtfdevansh/" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="icon" className="bg-background/50 backdrop-blur-sm">
               <Github className="h-5 w-5" />
             </Button>
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/devansh-goyal-3b558121b/" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="icon" className="bg-background/50 backdrop-blur-sm">
               <Linkedin className="h-5 w-5" />
             </Button>
           </a>
-          <a href="mailto:devanshgoyal@example.com">
+          <a href="mailto:mrdivu7@gmail.com">
             <Button variant="outline" size="icon" className="bg-background/50 backdrop-blur-sm">
               <Mail className="h-5 w-5" />
             </Button>

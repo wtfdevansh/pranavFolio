@@ -5,28 +5,28 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    title: "Project Alpha",
-    description: "An innovative platform for project management, designed to streamline workflows and boost team productivity.",
+    title: "Credi Guide",
+    description: "An AI agent help you to suggest credit card based on your usage.",
     image: "https://placehold.co/600x400.png",
     hint: "team collaboration",
-    tags: ["React", "Node.js", "GraphQL", "MongoDB"],
-    link: "#",
+    tags: ["Streamlit", "python", "Langchain", "Pydantic"],
+    link: "https://github.com/wtfdevansh/CrediGuide",
   },
   {
-    title: "Eco-Tracker",
-    description: "A mobile application that helps users track their carbon footprint and adopt more sustainable habits.",
+    title: "KhataBook",
+    description: "A application which help users to store the transactins of clients. all debit and credit data with backup",
     image: "https://placehold.co/600x400.png",
-    hint: "nature environment",
-    tags: ["Flutter", "Firebase", "Google Cloud"],
-    link: "#",
+    hint: "finance",
+    tags: ["Next.js", "MYSQL", "Tailwind CSS"],
+    link: "https://github.com/wtfdevansh/KhataBook",
   },
   {
-    title: "DataViz AI",
-    description: "An AI-powered data visualization tool that turns complex datasets into insightful, interactive charts.",
+    title: "UPSC nagar",
+    description: "An E-commerce website for buying books related to UPSC.",
     image: "https://placehold.co/600x400.png",
-    hint: "data chart",
-    tags: ["Python", "D3.js", "TensorFlow", "Flask"],
-    link: "#",
+    hint: "E-commerce",
+    tags: ["Wordpress", "plugins", "Figma"],
+    link: "https://upscnagar.com/?srsltid=AfmBOoqohGgs5573djyT9g0L957rXJwS7TRGVmYjIlFliTXSl3xVxi4d",
   },
 ];
 
