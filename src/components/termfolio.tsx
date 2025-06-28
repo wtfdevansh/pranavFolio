@@ -8,6 +8,8 @@ import Welcome from "@/components/content/welcome";
 import About from "@/components/content/about";
 import Projects from "@/components/content/projects";
 import Experience from "@/components/content/experience";
+import Startup from "@/components/content/startup";
+import Achievements from "@/components/content/achievements";
 import DottedCartoon from "@/components/content/dotted-cartoon";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -22,6 +24,8 @@ const SUGGESTED_COMMANDS = [
   "about",
   "projects",
   "experience",
+  "startup",
+  "achievements",
   "help",
   "clear",
   "welcome",
@@ -59,6 +63,8 @@ export default function Termfolio() {
     about: () => <About />,
     projects: () => <Projects />,
     experience: () => <Experience />,
+    startup: () => <Startup />,
+    achievements: () => <Achievements />,
     welcome: () => <Welcome />,
     ls: () => (
       <div>
