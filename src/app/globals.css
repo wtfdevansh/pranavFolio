@@ -56,8 +56,11 @@
   body {
     @apply text-foreground;
     background-color: hsl(var(--background));
-    background-image: radial-gradient(ellipse at top, hsl(var(--primary) / 0.2), transparent 60%),
-                      radial-gradient(ellipse at bottom, hsl(var(--accent) / 0.2), transparent 60%);
+    background-image: 
+      radial-gradient(ellipse at top left, hsl(var(--primary) / 0.25), transparent 50%),
+      radial-gradient(ellipse at bottom right, hsl(var(--accent) / 0.25), transparent 50%),
+      linear-gradient(330deg, hsl(var(--secondary) / 0.15), transparent 40%);
+    background-attachment: fixed;
   }
 }
 
