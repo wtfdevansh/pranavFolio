@@ -13,7 +13,7 @@ const Welcome = () => {
                                          
 `}
       </pre>
-      <p className="mt-4">Welcome to my interactive terminal portfolio!</p>
+      <p className="mt-4">Welcome! I'm Devansh Goyal. This is my interactive terminal portfolio.</p>
       <p>Type 'help' to see the list of available commands.</p>
     </div>
   );
