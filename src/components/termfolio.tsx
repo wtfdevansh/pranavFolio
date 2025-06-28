@@ -111,7 +111,7 @@ export default function Termfolio() {
 
   return (
     <div
-      className="w-full max-w-5xl h-[85vh] md:h-[70vh] bg-card text-card-foreground border border-border rounded-lg shadow-2xl flex flex-col font-code"
+      className="w-full max-w-5xl h-[85vh] md:h-[70vh] bg-black/30 backdrop-blur-md text-card-foreground border border-white/20 rounded-lg shadow-2xl flex flex-col font-code"
       onClick={() => inputRef.current?.focus()}
     >
       <div className="flex-none px-4 py-2 border-b border-border flex items-center gap-2">
