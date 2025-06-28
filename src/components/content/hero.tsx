@@ -12,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({ showStickers }) => {
     <section className="min-h-screen flex flex-col items-center justify-center text-center p-4 relative z-10 overflow-hidden">
       {/* Animated Stickers overlay */}
       <div
-        className={`absolute inset-0 w-full h-full pointer-events-none z-30 transition-opacity duration-700 ${showStickers ? 'opacity-100' : 'opacity-0'}`}
+        className={`absolute inset-0 w-full h-full pointer-events-none z-50 transition-opacity duration-700 ${showStickers ? 'opacity-100' : 'opacity-0'}`}
       >
         <Stickers isTerminalFocused={false} />
       </div>

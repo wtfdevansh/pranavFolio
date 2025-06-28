@@ -33,11 +33,11 @@ const Sticker = ({ icon, text, className, isFocused, index }: { icon: React.Reac
 };
 
 const stickerData = [
-    { icon: <Code className="w-8 h-8 text-accent" />, text: "Clean Code", className: "top-[10%] left-[5%] rotate-[-15deg]" },
-    { icon: <GitMerge className="w-8 h-8 text-primary" />, text: "Version Control", className: "top-[15%] right-[8%] rotate-[20deg]" },
-    { icon: <Database className="w-8 h-8 text-accent" />, text: "Databases", className: "bottom-[20%] left-[12%] rotate-[10deg]" },
-    { icon: <Wind className="w-8 h-8 text-primary" />, text: "Tailwind CSS", className: "bottom-[15%] right-[15%] rotate-[-18deg]" },
-    { icon: <Cog className="w-8 h-8 text-accent" />, text: "Genkit AI", className: "top-[50%] right-[2%] rotate-[5deg]" }
+    { icon: <Code className="w-8 h-8 text-accent" />, text: "Clean Code", className: "top-[6%] left-[2%] rotate-[-15deg]" },
+    { icon: <GitMerge className="w-8 h-8 text-primary" />, text: "Version Control", className: "top-[8%] right-[3%] rotate-[20deg]" },
+    { icon: <Database className="w-8 h-8 text-accent" />, text: "Databases", className: "bottom-[10%] left-[6%] rotate-[10deg]" },
+    { icon: <Wind className="w-8 h-8 text-primary" />, text: "Tailwind CSS", className: "bottom-[8%] right-[7%] rotate-[-18deg]" },
+    { icon: <Cog className="w-8 h-8 text-accent" />, text: "Genkit AI", className: "top-[20%] right-[10%] rotate-[5deg]" }
 ];
 
 
