@@ -45,13 +45,13 @@ export default function Home() {
             style={{ perspective: '2000px' }}
         >
             <div
-            className={`w-full max-w-5xl transition-all duration-1000 ease-out 
+            className={`w-full max-w-5xl transition-all duration-500 ease-out 
                 ${isTerminalVisible
                     ? 'opacity-100 [transform:scale(1)_rotateX(5deg)_rotateY(-6deg)]'
                     : 'opacity-0 [transform:scale(0.8)_rotateX(15deg)_rotateY(-15deg)]'
-                }`}
+                } hover:[transform:rotateX(0deg)_rotateY(0deg)_scale(1.02)] focus-within:[transform:rotateX(0deg)_rotateY(0deg)_scale(1.02)]`}
             >
-                <div className="h-full w-full transition-transform duration-500 ease-out hover:[transform:rotateX(0deg)_rotateY(0deg)_scale(1.02)]">
+                <div className="h-full w-full">
                     <Termfolio />
                 </div>
             </div>
