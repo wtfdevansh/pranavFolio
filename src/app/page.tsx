@@ -36,7 +36,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="relative w-full bg-background">
+    <main className="relative w-full">
         <Stickers />
         <Hero />
         <section
