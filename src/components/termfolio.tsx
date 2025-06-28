@@ -8,6 +8,7 @@ import Welcome from "@/components/content/welcome";
 import About from "@/components/content/about";
 import Projects from "@/components/content/projects";
 import Experience from "@/components/content/experience";
+import DottedCartoon from "@/components/content/dotted-cartoon";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -111,9 +112,10 @@ export default function Termfolio() {
 
   return (
     <div
-      className="w-full max-w-5xl h-[85vh] md:h-[70vh] bg-background/60 backdrop-blur-xl text-card-foreground border border-white/20 rounded-lg shadow-2xl flex flex-col font-code [transform:perspective(1500px)_rotateX(5deg)_rotateY(-6deg)] transition-transform duration-500 ease-out hover:[transform:perspective(1500px)]"
+      className="relative w-full max-w-5xl h-[85vh] md:h-[70vh] bg-background/60 backdrop-blur-xl text-card-foreground border border-white/20 rounded-lg shadow-2xl flex flex-col font-code [transform:perspective(1500px)_rotateX(5deg)_rotateY(-6deg)] transition-transform duration-500 ease-out hover:[transform:perspective(1500px)]"
       onClick={() => inputRef.current?.focus()}
     >
+      <DottedCartoon />
       <div className="flex-none px-4 py-2 border-b border-border flex items-center gap-2">
         <div className="flex gap-1.5">
           <span className="w-3 h-3 rounded-full bg-red-500"></span>
