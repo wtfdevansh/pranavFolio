@@ -3,7 +3,7 @@ import { Code, GitMerge, Database, Wind, Cog } from 'lucide-react';
 
 const Sticker = ({ icon, text, className }: { icon: React.ReactNode, text: string, className?: string }) => {
   return (
-    <div className={`absolute w-32 h-32 flex flex-col items-center justify-center gap-2 bg-secondary/80 backdrop-blur-sm border border-border rounded-2xl shadow-lg text-center p-2 text-foreground ${className}`}>
+    <div className={`absolute w-32 h-32 flex flex-col items-center justify-center gap-2 bg-secondary/40 backdrop-blur-md border border-border rounded-2xl shadow-lg text-center p-2 text-foreground ${className}`}>
       {icon}
       <span className="text-xs font-semibold">{text}</span>
     </div>

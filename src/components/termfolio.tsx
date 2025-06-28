@@ -112,7 +112,7 @@ export default function Termfolio() {
 
   return (
     <div
-      className="relative w-full max-w-5xl h-[85vh] md:h-[70vh] bg-background/60 backdrop-blur-xl text-card-foreground border border-white/20 rounded-lg shadow-2xl flex flex-col font-code"
+      className="relative w-full max-w-5xl h-[85vh] md:h-[70vh] bg-background/40 backdrop-blur-xl text-card-foreground border border-white/20 rounded-lg shadow-2xl flex flex-col font-code"
       onClick={() => inputRef.current?.focus()}
     >
       <DottedCartoon />
