@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Credi Guide",
     description: "An AI agent help you to suggest credit card based on your usage.",
-    image: "https://placehold.co/600x400.png",
+    image: "/Screenshot_25-Jun_11-17-33_14923.png",
     hint: "team collaboration",
     tags: ["Streamlit", "python", "Langchain", "Pydantic"],
     link: "https://github.com/wtfdevansh/CrediGuide",
@@ -15,7 +15,7 @@ const projects = [
   {
     title: "KhataBook",
     description: "A application which help users to store the transactins of clients. all debit and credit data with backup",
-    image: "https://placehold.co/600x400.png",
+    image: "/Screenshot_25-Jun_11-15-30_12926.png",
     hint: "finance",
     tags: ["Next.js", "MYSQL", "Tailwind CSS"],
     link: "https://github.com/wtfdevansh/KhataBook",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "UPSC nagar",
     description: "An E-commerce website for buying books related to UPSC.",
-    image: "https://placehold.co/600x400.png",
+    image: "/Screenshot_25-Jun_11-10-15_4666.png",
     hint: "E-commerce",
     tags: ["Wordpress", "plugins", "Figma"],
     link: "https://upscnagar.com/?srsltid=AfmBOoqohGgs5573djyT9g0L957rXJwS7TRGVmYjIlFliTXSl3xVxi4d",

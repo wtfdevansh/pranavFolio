@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="flex flex-col md:flex-row items-start gap-6">
       <Avatar className="w-24 h-24">
-        <AvatarImage src="https://placehold.co/100x100.png" alt="Profile" data-ai-hint="profile picture" />
+        <AvatarImage src="/profile-avatar.png" alt="Devansh Goyal coding avatar" data-ai-hint="profile picture" />
         <AvatarFallback>DG</AvatarFallback>
       </Avatar>
       <div className="max-w-prose">
