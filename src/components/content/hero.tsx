@@ -1,11 +1,22 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Stickers from '@/components/content/stickers';
 
-const Hero = () => {
+interface HeroProps {
+  showStickers: boolean;
+}
+
+const Hero: React.FC<HeroProps> = ({ showStickers }) => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-center p-4 relative z-10">
-      <div className="max-w-3xl">
+    <section className="min-h-screen flex flex-col items-center justify-center text-center p-4 relative z-10 overflow-hidden">
+      {/* Animated Stickers overlay */}
+      <div
+        className={`absolute inset-0 w-full h-full pointer-events-none z-30 transition-opacity duration-700 ${showStickers ? 'opacity-100' : 'opacity-0'}`}
+      >
+        <Stickers isTerminalFocused={false} />
+      </div>
+      <div className="max-w-3xl relative z-40">
         <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
           Devansh Goyal
         </h1>
@@ -30,7 +41,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="absolute bottom-10 animate-bounce">
+      <div className="absolute bottom-10 animate-bounce z-40">
         <ArrowDown className="h-6 w-6 text-muted-foreground" />
       </div>
     </section>

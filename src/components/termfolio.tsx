@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState, useRef, useEffect, useCallback } from "react";
@@ -50,7 +49,7 @@ export default function Termfolio() {
 
   useEffect(() => {
     setHistory([{ id: 0, output: <Welcome /> }]);
-    inputRef.current?.focus();
+  
   }, []);
 
   const commands: {
@@ -118,7 +117,7 @@ export default function Termfolio() {
 
   return (
     <div
-      className="relative w-full max-w-5xl h-[85vh] md:h-[70vh] bg-background/40 backdrop-blur-xl text-card-foreground border border-white/20 rounded-lg shadow-2xl flex flex-col font-code"
+      className="relative w-full max-w-5xl h-[85vh] md:h-[70vh] bg-background/80 backdrop-blur-xl text-card-foreground border border-white/20 rounded-lg shadow-2xl flex flex-col font-code"
       onClick={() => inputRef.current?.focus()}
     >
       <DottedCartoon />
@@ -167,9 +166,8 @@ export default function Termfolio() {
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 disabled={isProcessing}
-                className="absolute inset-0 w-full h-full bg-transparent border-none opacity-0 p-0 m-0 cursor-default focus-visible:ring-0 focus-visible:ring-offset-0"
-                autoFocus
-                autoComplete="off"
+                className="absolute inset-0 w-full h-full bg-transparent border-none opacity-0 p-0 m-0 cursor-default focus-visible:ring-0 focus-visible:ring-offset-0" 
+                autoComplete="on"
               />
             </div>
           </div>

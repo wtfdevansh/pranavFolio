@@ -7,28 +7,22 @@ import Stickers from "@/components/content/stickers";
 
 export default function Home() {
   const terminalRef = useRef<HTMLDivElement>(null);
-  const [isTerminalVisible, setIsTerminalVisible] = useState(false);
-  const [isTerminalFocused, setIsTerminalFocused] = useState(false);
+  const [showStickers, setShowStickers] = useState(true);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsTerminalVisible(true);
-          observer.unobserve(entry.target);
-        }
+        setShowStickers(!entry.isIntersecting);
       },
       {
-        rootMargin: "0px 0px -30% 0px", // Animate when the bottom 30% of the screen is reached
+        rootMargin: "0px 0px -30% 0px",
         threshold: 0,
       }
     );
-
     const currentRef = terminalRef.current;
     if (currentRef) {
       observer.observe(currentRef);
     }
-
     return () => {
       if (currentRef) {
         observer.unobserve(currentRef);
@@ -38,30 +32,16 @@ export default function Home() {
 
   return (
     <main className="relative w-full">
-        <Stickers isTerminalFocused={isTerminalFocused} />
-        <Hero />
-        <section
-            ref={terminalRef}
-            className="flex min-h-[90vh] w-full items-center justify-center p-4"
-            style={{ perspective: '2000px' }}
-        >
-            <div
-              className={`w-full max-w-5xl transition-all duration-500 ease-out 
-                  ${isTerminalVisible
-                      ? 'opacity-100 [transform:scale(1)_rotateX(5deg)_rotateY(-6deg)]'
-                      : 'opacity-0 [transform:scale(0.8)_rotateX(15deg)_rotateY(-15deg)]'
-                  } hover:[transform:rotateX(0deg)_rotateY(0deg)_scale(1.02)] focus-within:[transform:rotateX(0deg)_rotateY(0deg)_scale(1.02)]`}
-              onMouseEnter={() => setIsTerminalFocused(true)}
-              onMouseLeave={() => setIsTerminalFocused(false)}
-              onFocus={() => setIsTerminalFocused(true)}
-              onBlur={() => setIsTerminalFocused(false)}
-              tabIndex={0}
-            >
-                <div className="h-full w-full">
-                    <Termfolio />
-                </div>
-            </div>
-        </section>
+      <Hero showStickers={showStickers} />
+      <section
+        ref={terminalRef}
+        className="flex min-h-[90vh] w-full items-center justify-center p-4"
+        style={{ perspective: '2000px' }}
+      >
+        <div className="h-full w-full flex justify-center">
+          <Termfolio />
+        </div>
+      </section>
     </main>
   );
 }
