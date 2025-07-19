@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Code, GitMerge, Database, Wind, Cog } from 'lucide-react';
+import { Code, GitMerge, Database, Wind, Cog , EarthLock, BadgeAlert , Fingerprint, ShieldCheck } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Sticker = ({ icon, text, className, isFocused, index }: { icon: React.ReactNode, text: string, className?: string, isFocused: boolean, index: number }) => {
@@ -33,11 +33,11 @@ const Sticker = ({ icon, text, className, isFocused, index }: { icon: React.Reac
 };
 
 const stickerData = [
-    { icon: <Code className="w-8 h-8 text-accent" />, text: "Clean Code", className: "top-[6%] left-[2%] rotate-[-15deg]" },
-    { icon: <GitMerge className="w-8 h-8 text-primary" />, text: "Version Control", className: "top-[8%] right-[3%] rotate-[20deg]" },
+    { icon: <EarthLock className="w-8 h-8 text-accent" />, text: "Security", className: "top-[6%] left-[2%] rotate-[-15deg]" },
+    { icon: <BadgeAlert className="w-8 h-8 text-primary" />, text: "Warning", className: "top-[8%] right-[3%] rotate-[20deg]" },
     { icon: <Database className="w-8 h-8 text-accent" />, text: "Databases", className: "bottom-[10%] left-[6%] rotate-[10deg]" },
-    { icon: <Wind className="w-8 h-8 text-primary" />, text: "Tailwind CSS", className: "bottom-[8%] right-[7%] rotate-[-18deg]" },
-    { icon: <Cog className="w-8 h-8 text-accent" />, text: "Genkit AI", className: "top-[20%] right-[10%] rotate-[5deg]" }
+    { icon: <Fingerprint className="w-8 h-8 text-primary" />, text: "Privacy", className: "bottom-[8%] right-[7%] rotate-[-18deg]" },
+    { icon: <ShieldCheck className="w-8 h-8 text-accent" />, text: "Protection", className: "top-[20%] right-[10%] rotate-[5deg]" }
 ];
 
 

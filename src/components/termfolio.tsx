@@ -9,7 +9,7 @@ import Projects from "@/components/content/projects";
 import Experience from "@/components/content/experience";
 import Startup from "@/components/content/startup";
 import Achievements from "@/components/content/achievements";
-import DottedCartoon from "@/components/content/dotted-cartoon";
+import Certifications from "@/components/content/certifications";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -25,6 +25,7 @@ const SUGGESTED_COMMANDS = [
   "experience",
   "startup",
   "achievements",
+  "certifications",
   "help",
   "clear",
   "welcome",
@@ -64,7 +65,10 @@ export default function Termfolio() {
     experience: () => <Experience />,
     startup: () => <Startup />,
     achievements: () => <Achievements />,
+    certifications: () => <Certifications />,
     welcome: () => <Welcome />,
+    
+
     ls: () => (
       <div>
         <p>Available commands:</p>
@@ -120,7 +124,7 @@ export default function Termfolio() {
       className="relative w-full max-w-5xl h-[85vh] md:h-[70vh] bg-background/80 backdrop-blur-xl text-card-foreground border border-white/20 rounded-lg shadow-2xl flex flex-col font-code"
       onClick={() => inputRef.current?.focus()}
     >
-      <DottedCartoon />
+      
       <div className="flex-none px-4 py-2 border-b border-border flex items-center gap-2">
         <div className="flex gap-1.5">
           <span className="w-3 h-3 rounded-full bg-red-500"></span>

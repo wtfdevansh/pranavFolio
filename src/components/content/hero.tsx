@@ -18,23 +18,23 @@ const Hero: React.FC<HeroProps> = ({ showStickers }) => {
       </div>
       <div className="max-w-3xl relative z-40">
         <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Devansh Goyal
+          Pranav Singh
         </h1>
         <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-          I'm a creative developer and tech enthusiast, passionate about building modern web applications and exploring new technologies.
+          I’m a tech enthusiast with a strong foundation in networking and cybersecurity, skilled in securing systems, analyzing threats, and ensuring safe digital environments.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <a href="https://github.com/wtfdevansh/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Pranav2244/" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="icon" className="bg-background/50 backdrop-blur-sm">
               <Github className="h-5 w-5" />
             </Button>
           </a>
-          <a href="https://www.linkedin.com/in/devansh-goyal-3b558121b/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/pranavkumar122244/" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="icon" className="bg-background/50 backdrop-blur-sm">
               <Linkedin className="h-5 w-5" />
             </Button>
           </a>
-          <a href="mailto:mrdivu7@gmail.com">
+          <a href="mailto:pranavkumar122244@gmail.com">
             <Button variant="outline" size="icon" className="bg-background/50 backdrop-blur-sm">
               <Mail className="h-5 w-5" />
             </Button>

@@ -2,10 +2,11 @@ import React from 'react';
 
 const experienceData = [
   {
-    role: "Teaching assistant intern",
-    company: "Apna College.",
-    period: "june 2024 - september 2024",
-    description: "As a teaching assistant i solved student doubts related to dsa and web and help in solving the problems. this helps to increase my logical thinking and make me good in problem solving"
+    role: "Backend Developer Intern",
+    company: "Outworx solutions ",
+    period: "june 2024 - august 2024",
+    description: "Worked as a backend developer on ParkEngage, a US-based parking management solution, My responsibilities included database management using MySQL Workbench, creating,optimizing, and maintaining SQL queries. Additionally, I contributed to the development and enhancement of backend features using the Laravel PHP framework, ensuring smooth integration with the front-end systems"
+
   }
   
 ];

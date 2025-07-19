@@ -4,15 +4,15 @@ import { Award, Star, Trophy } from 'lucide-react';
 const achievementsData = [
   {
     icon: <Trophy className="w-5 h-5 text-yellow-400" />,
-    title: "500+ problems on leetcode and high ranking",
-    issuer: "Leetcode",
-    description: "problem solving skills dsa and logical approach."
+    title: "Global Rank under top 10% on TryHackMe",
+    issuer: "TryHackMe",
+    description: "Achieved a global rank under the top 10% on TryHackMe, showcasing exceptional skills in cybersecurity challenges."
   },
   {
     icon: <Star className="w-5 h-5 text-blue-400" />,
-    title: "postman API fundamental student expert",
-    issuer: "Postman",
-    description: "API fundamnetal practical knowledge."
+    title: "Technovate finalist 2025",
+    issuer: "Technovate",
+    description: "Finalist in Technovate 2025, recognized for innovative solutions in technology and cybersecurity."
   },
   {
     icon: <Award className="w-5 h-5 text-green-400" />,

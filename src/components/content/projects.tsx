@@ -5,28 +5,28 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    title: "Credi Guide",
-    description: "An AI agent help you to suggest credit card based on your usage.",
-    image: "/Screenshot_25-Jun_11-17-33_14923.png",
+    title: "Real-Time Steganographic Tool for Secure Data Transmission in Live Video",
+    description: "A tool that allows users to securely transmit data by hiding it within live video streams, ensuring confidentiality and integrity.",
+    image: "/stegno.jpeg",
     hint: "team collaboration",
-    tags: ["Streamlit", "python", "Langchain", "Pydantic"],
-    link: "https://github.com/wtfdevansh/CrediGuide",
+    tags: ["OpenCV", "python", "LSB", "WEB"],
+    link: "https://github.com/Pranav2244",
   },
   {
-    title: "KhataBook",
-    description: "A application which help users to store the transactins of clients. all debit and credit data with backup",
-    image: "/Screenshot_25-Jun_11-15-30_12926.png",
+    title: "OWASP Risk Calculator",
+    description: "Developed an OWASP-based risk calculator to assess and score risks related to web vulnerabilities, following the OWASP top 10 guidelines. This tool helps users identify and prioritize security threats effectively.",
+    image: "/owasp.jpeg",
     hint: "finance",
-    tags: ["Next.js", "MYSQL", "Tailwind CSS"],
-    link: "https://github.com/wtfdevansh/KhataBook",
+    tags: ["OWASP", "Python", "Flask"],
+    link: "https://github.com/Pranav2244",
   },
   {
-    title: "UPSC nagar",
-    description: "An E-commerce website for buying books related to UPSC.",
-    image: "/Screenshot_25-Jun_11-10-15_4666.png",
+    title: "Assisting Cyber Police in Financial Fraud Investigation ",
+    description: "Collaborated with the Cybercrime division of Noida Police to assist in a ₹23.9 Lakh financial fraud case involving forged documents and and fake investment schemes. With the permission and knowledge of the cyber police conducted social engineering analysis, phishing detection, and email forensic to gather critical intelligence. Tried making real time, honey pot, and sandbox analysis for malicious link to identify Scammar methods and trace their digital footprints",
+    image: "/police.jpeg",
     hint: "E-commerce",
-    tags: ["Wordpress", "plugins", "Figma"],
-    link: "https://upscnagar.com/?srsltid=AfmBOoqohGgs5573djyT9g0L957rXJwS7TRGVmYjIlFliTXSl3xVxi4d",
+    tags: ["Cybersecurity", "Investigation", "Social Engineering"],
+    link: "https://github.com/Pranav2244",
   },
 ];
 
